@@ -1,3 +1,7 @@
+/*
+create package window
+*/
+
 package harkkatyo;
 
 import java.net.URL;
