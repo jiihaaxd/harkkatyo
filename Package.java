@@ -1,3 +1,7 @@
+/*
+abstract package class and other classes
+*/
+
 package harkkatyo;
 
 
