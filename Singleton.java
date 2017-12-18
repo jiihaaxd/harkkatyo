@@ -1,3 +1,7 @@
+/*
+for helping to control lists
+*/
+
 package harkkatyo;
 
 import java.util.ArrayList;
