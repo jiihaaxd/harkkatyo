@@ -1,3 +1,7 @@
+/*
+post class for smartpost data
+*/
+
 package harkkatyo;
 
 public class Posts {
