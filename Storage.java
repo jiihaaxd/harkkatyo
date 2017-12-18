@@ -1,3 +1,7 @@
+/*
+maintaining lists
+*/
+
 package harkkatyo;
 
 import java.util.ArrayList;
