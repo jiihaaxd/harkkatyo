@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="AnchorPane" prefHeight="672.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="harkkatyo.Controller2">
+   <children>
+      <Button fx:id="createpackagebutton" layoutX="561.0" layoutY="590.0" mnemonicParsing="false" onAction="#createPackageButton" text="Luo paketti" />
+      <Button fx:id="cancelbutton" layoutX="449.0" layoutY="590.0" mnemonicParsing="false" onAction="#cancelButton" text="Peruuta" />
+      <Button fx:id="infobutton" layoutX="539.0" layoutY="253.0" mnemonicParsing="false" onAction="#infoButton" text="Infoa luokista" />
+      <TextField fx:id="weight" layoutX="56.0" layoutY="314.0" prefHeight="39.0" prefWidth="281.0" />
+      <TextField fx:id="name" layoutX="56.0" layoutY="214.0" onAction="#createPackageButton" prefHeight="39.0" prefWidth="281.0" />
+      <TextField fx:id="size1" layoutX="56.0" layoutY="263.0" prefHeight="39.0" prefWidth="78.0" />
+      <RadioButton fx:id="c3" layoutX="432.0" layoutY="214.0" mnemonicParsing="false" text="3. Luokka">
+         <toggleGroup>
+            <ToggleGroup fx:id="cg" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="c1" layoutX="432.0" layoutY="118.0" mnemonicParsing="false" text="1. Luokka" toggleGroup="$cg" />
+      <RadioButton fx:id="c2" layoutX="432.0" layoutY="167.0" mnemonicParsing="false" text="2. Luokka" toggleGroup="$cg" />
+      <Label contentDisplay="TOP" layoutX="60.0" layoutY="160.0" text="TAI" />
+      <Label layoutX="54.0" layoutY="77.0" text="Valitse esine:" />
+      <Label layoutX="426.0" layoutY="77.0" text="Valitse pakettiluokka" />
+      <Label layoutX="54.0" layoutY="414.0" text="Paketin lähetystiedot" />
+      <CheckBox fx:id="breakvalue" layoutX="58.0" layoutY="363.0" mnemonicParsing="false" text="Särkyvää" />
+      <Label layoutX="50.0" layoutY="14.0" text="Luo paketti">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="187.0" text="Luo uusi esine:" />
+      <ComboBox fx:id="chooseItem" layoutX="54.0" layoutY="98.0" prefHeight="39.0" prefWidth="281.0" />
+      <ComboBox fx:id="chooseFrom" layoutX="54.0" layoutY="448.0" prefHeight="39.0" prefWidth="281.0" />
+      <ComboBox fx:id="chooseTo" layoutX="355.0" layoutY="448.0" prefHeight="39.0" prefWidth="281.0" />
+      <TextField fx:id="size2" layoutX="156.0" layoutY="263.0" prefHeight="39.0" prefWidth="78.0" />
+      <TextField fx:id="size3" layoutX="257.0" layoutY="263.0" prefHeight="39.0" prefWidth="78.0" />
+   </children>
+</Pane>
