@@ -1,3 +1,7 @@
+/*
+for reading data from xml
+*/
+
 package harkkatyo;
 
 import java.io.BufferedReader;
