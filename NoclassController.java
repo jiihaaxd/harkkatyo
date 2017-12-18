@@ -1,3 +1,7 @@
+/*
+control error window
+*/
+
 package harkkatyo;
 
 import java.net.URL;
