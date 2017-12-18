@@ -1,3 +1,7 @@
+/*
+MainWindow
+*/
+
 package harkkatyo;
 
 import javafx.scene.Parent;
@@ -95,7 +99,7 @@ public class Controller implements Initializable {
 			Parent root = FXMLLoader.load(getClass().getResource("harkkatyoFXML.fxml"));
 
 			Scene scene = new Scene(root,672,683);
-			primaryStage.setTitle("TIMO J‰rjestelm‰");
+			primaryStage.setTitle("TIMO J√§rjestelm√§");
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
