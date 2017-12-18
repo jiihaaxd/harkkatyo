@@ -1,3 +1,3 @@
 # olio-ohjelmointi
 # harkkatyö syksy 2017
-# Emmi Huovija ja Roosa Hareja
+# Emmi Huovila ja Roosa Hareja
